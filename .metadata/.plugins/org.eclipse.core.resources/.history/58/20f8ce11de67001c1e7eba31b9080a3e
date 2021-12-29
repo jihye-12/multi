@@ -1,0 +1,15 @@
+
+public class Clock {
+
+	public static void main(String[] args) {
+		int H = 10;
+		int M = 10;
+		
+		if(M <= 45) {
+			System.out.println(H + (M-45)); 
+		}
+		else {
+
+	}
+
+}

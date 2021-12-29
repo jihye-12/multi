@@ -1,0 +1,26 @@
+package ch2;
+
+public class VaribleTest {
+
+	public static void main(String[] args) {
+		//선언 + 값 할당 
+		int kor = 100;
+		int eng = 50;
+		int mat = 75;
+		
+		//선
+		int sum;
+		int avgInt;
+		double avgDouble;
+		
+		System.out.println(kor);
+		System.out.println(eng);
+		System.out.println(mat);
+		
+		eng = eng * 2;
+		sum = kor + eng + mat;
+		
+		System.out.println(sum);
+	}
+
+}

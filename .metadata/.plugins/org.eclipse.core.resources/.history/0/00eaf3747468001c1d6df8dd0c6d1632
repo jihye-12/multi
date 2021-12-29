@@ -1,0 +1,12 @@
+package ch6;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		// 1. 회사원의 4개 특성 파악 - 2. 클래스 정의
+		//3. 객체생성
+		Employee e1 = new Employee();
+		System.out.println("사번=" + e1.id + "이름="+ e1.name + "부서=" + e1.dept + "급여=" + "e1.pay");
+	}
+
+}

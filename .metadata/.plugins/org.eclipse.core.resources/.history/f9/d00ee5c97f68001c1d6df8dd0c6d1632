@@ -1,0 +1,17 @@
+package test;
+
+public class TestStudent2 {
+	public static void main(String[] args) {
+
+		TestStudent1 e1 = new TestStudent1();
+		e1.name = args[0];
+		e1.aff = args[1];
+		e1.pro = args[2];
+		e1.edu = Integer.parseInt(args[3]);
+				
+		System.out.println("사번=" + e1.name + " 이름="+ e1.aff + " 부서=" + e1.pro + " 급여=" + e1.edu);
+
+	
+	}
+
+}

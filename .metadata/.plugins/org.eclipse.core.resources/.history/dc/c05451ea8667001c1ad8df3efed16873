@@ -1,0 +1,22 @@
+package ch3;
+
+public class OperatorTest {
+	
+	public static void main(String[] args) {
+		boolean r1 = true;
+		boolean r2 = false;
+		boolean r3 = 10 > 5;
+		
+		int i1 = 100;
+		int i2 = 200;
+		double d1 = 100.0;
+		boolean r4 = i1 == i2;
+		boolean r5 = i1 == d1;
+		boolean r6 = (double)i1 == d1;
+		
+		System.out.println(r4);
+		System.out.println(r5);
+		System.out.println(r6);
+	}
+
+}

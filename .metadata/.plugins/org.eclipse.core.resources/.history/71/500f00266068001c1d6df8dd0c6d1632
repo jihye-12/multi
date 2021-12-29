@@ -1,0 +1,22 @@
+package ch5;
+
+public class ArrayTest2 {
+
+	public static void main(String[] args) {
+		
+		/*int kors[] = new int[5];
+		int engs[] = new int[5];
+		int mats[] = new int[5];*/
+		
+		int scores[][] = new int[3][5];
+		System.out.println("총 학생수=" + scores[0].length); // 모든 인덱스의 길이가 같음
+		System.out.println("총 과목수=" + scores.length);
+		System.out.println("총 점수 갯수=" + scores.length * scores[0].length);
+		
+		for(int i = 0; i < scores.length; i++) {
+			for(int j = 0; j < scores[j].length; j++) { //2차원 배열은 중첩 반복문
+			 System.out.println(scores[i][j] + "\t");
+		}
+	}
+	}
+}

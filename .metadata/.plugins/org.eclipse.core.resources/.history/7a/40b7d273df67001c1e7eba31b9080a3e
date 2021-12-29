@@ -1,0 +1,18 @@
+
+public class Clock {
+
+	public static void main(String[] args) {
+		int H = 10;
+		int M = 10;
+		
+		if(M < 45) {
+			H = H-1;
+			M = 60 - (45-M);
+			System.out.println(H +" "+ M); 
+		}
+		else {
+			M = M - 45;
+			System.out.println(H +" "+ M); 
+		}
+}
+}

@@ -1,0 +1,14 @@
+package ch4;
+
+public class GugudanTest {
+
+	public static void main(String[] args) {
+		int a = 0;
+		for(int i = 1; i <= 9; i++) {
+			a = 2 * i;
+			System.out.println("2 * "+ i + " = " + a);
+		}
+
+	}
+
+}

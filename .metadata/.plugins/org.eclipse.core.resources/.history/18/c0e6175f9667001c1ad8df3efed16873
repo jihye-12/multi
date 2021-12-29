@@ -1,0 +1,20 @@
+package ch4;
+
+public class IfTest {
+
+	public static void main(String[] args) {
+		String name = "이자바";
+		//java, db, algorithm 시험점수 
+		int java = 100;
+		int db = 50;
+		int algo = 75;
+		int sum = java + db + algo;
+		int avg = sum / 3;
+		double avgDouble = (double)sum / 3;
+		
+		System.out.println(name + "학생의 자바점수=" + java + "db점수=" + db + "알고리즘 점수" + algo + "입니다.");
+		System.out.println(name + "학생의 총점수=" + sum + "정수평균=" + avg + "실수평균=" + avgDouble + "입니다.");
+
+	}
+
+}
